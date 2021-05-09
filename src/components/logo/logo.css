@@ -1,0 +1,9 @@
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer > div {
+    margin-right: 5px;
+  }
+  

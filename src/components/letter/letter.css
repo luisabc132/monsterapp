@@ -1,0 +1,15 @@
+.letterContainer{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    width: 43px;
+    height: 55px;   
+    color: white;
+    background-color: aquamarine;  
+    font-size: 36px;
+    line-height: 43px;   
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+
+}

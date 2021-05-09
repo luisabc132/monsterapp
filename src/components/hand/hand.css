@@ -1,0 +1,13 @@
+.handContainer{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #0A0A0C;
+}
+
+.handContainer > div {
+    margin-right: 51px;
+    margin-top: 168px;
+}
