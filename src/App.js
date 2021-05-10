@@ -12,6 +12,7 @@ import Papo from './assets/Papo.png';
 import Pepo from './assets/Pepo.png';
 import Pis from './assets/Pis.png';
 import Polo from './assets/Polo.png';
+import ButtonHandle from './components/button/ButtonHandle';
 
 
 
@@ -44,6 +45,7 @@ const handOfMonsters = [
     
       <Logo />
       <Hand monsters={handOfMonsters} /> 
+      <ButtonHandle />
      
     </div>
   );

@@ -6,16 +6,8 @@ function Hand({monsters}){
     return(
         <div className="handContainer">
 
-            {/* {monsters.forEach(monster => {
-                <Card monster={{name: monster.name, color: monster.color, imagen: monster.imagen }} />
-                {console.log('entro')}
-                {console.log(monster.name)}
-            })} */}
-
-
-
-          {monsters.map((monster) => (
-            <Card monster={{ name: monster.name, color: monster.color, img: monster.img }} />
+          {monsters.splice(0,3).map((monster) => (
+            <Card key ={monster.name} monster = {monster} />
             ))} 
          </div>
 
